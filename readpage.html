@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Town Media</title>
+    <meta content="width=device-width,height=device-height initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="42x42" href="img/MTM full.png">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/animated.css">
+      <script src="https://code.responsivevoice.org/responsivevoice.js?key=UZXDfLFP"></script>
+</head>
+
+<body oncontextmenu="return false">
+
+
+   <!-- Navbar Start -->
+       <!--nav bar start-->
+        <div class="container-fluid sticky-top   shadow-sm" style="margin: 0;padding: 0;" >
+         <nav class="navbar">
+                <a href="#" class="toggle-button">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                  <ul>
+                    <li><a href="MTMindex.html"><i class="fa fa-home" style="font-size: 20px;"></i></a></li>
+                    <li><a href="#">செய்திகள்</a></li>
+                    <li><a href="#">சற்றுமுன்</a></li>
+                    <li><a href="#">உலகம்</a></li>
+                    <li><a href="#">இந்தியா</a></li>
+                    <li><a href="#">தமிழ்நாடு</a></li>
+                    <li><a href="#">அரசியல்</a></li>
+                    <li><a href="#">விளையாட்டு</a></li>
+                    <div class="dropdown">
+                         <li><a class="dropbtn" href="#">மேலும்&nbsp;<i class=" fas fa-caret-down"></i>
+                         </a></li>
+                        <div class="dropdown-content">
+                            <li><a href="#"><i class="fas fa-coins"></i>&nbsp;வர்த்தகம்</a></li>
+                            <li><a href="#"><i class="fa fa-film"></i>&nbsp;சினிமா</a></li>
+                            <li><a href="#"><i class="fa fa-book"></i>&nbsp;கல்வி</a></li>
+                            <li><a href="#"><i class="fa fa-desktop"></i>&nbsp;தொழில்நுட்பம்</a></li>
+                            <li><a href="#"><i class="fa fa-globe"></i>&nbsp;சுற்றுச்சூழல்</a></li>
+                            <li><a href="#"><i class="fa fa-medkit"></i>&nbsp;ஆரோக்கியம்</a></li>
+                        </div>
+                    </div>
+                        <li><a href="#" ><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" ><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="#" ><i class="fab fa-twitter"></i></a></li>
+                      <style >
+
+                          .dropdown-content {
+                              display: none;
+                              position: absolute;
+                              background-color:#cc0631;
+                              min-width: 250px;
+                              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                              z-index: 1;
+                            }
+                            .dropdown:hover .dropdown-content
+                             {display: block;}
+
+                      </style>
+                    
+                  </ul>
+                </div>
+        </nav>
+
+
+  <style >
+
+        @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+html {
+    background-color: #DFDFDF;
+}
+        * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f50237;
+    color: black;
+}
+
+.brand-title {
+
+    font-size: 1.5rem;
+    margin:15px 20px 15px 20px;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    font-weight: bold;
+    display: block;
+    text-decoration:none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li a:hover {
+    color: #ffa752;
+    transition: all 0.5s ease;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #3e61aa;
+    border-radius: 10px;
+}
+
+@media (max-width: 990px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        color:#ffa752;
+    }
+}
+  </style>
+<script >
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+ </script>
+ <!-- Nav-bar End-->
+     
+ <!-- menu icon -->
+  
+ <!-- menu icon -->
+ 
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="jumbotron row mb-0 "style="background-color:#f5f5c1;">
+            <div class="col-md-4" >
+                <!-- <div class="displayTime ">
+                    <p class="text-dark mb-0" style="font-size:13px;">
+                         03:31:35 pm </p>
+                </div>
+                <div class="displayDate float-left" style="font-size:13px;">
+                    <b class="text-dark">
+                           புதன், 21 டிசம்பர் 2022
+                        <br>மார்கழி 06 , சுபகிருது வருடம்</b>
+                </div> -->
+
+                <p><span id='date-time'></span></p>
+                 <script>
+                   var dt = new Date();
+                    document.getElementById('date-time').innerHTML=dt;
+                  </script>
+                   <h5 style="font-size:15px;font-family:ubuntu;">FOR ADVERTISEMENT CONTACT&nbsp;</h5>&nbsp;<i class="fas fa-mobile-alt">&nbsp;&nbsp;9360997316&nbsp;&nbsp;</i><i class="fas fa-envelope">&nbsp;&nbsp;mytownmedia0304@gmail.com</i>
+               
+            </div>
+
+            <div class="col-md-4 text-center">
+                <a  href="#"><img class="mx-auto animated wow zoomIn"data-wow-delay="0.5s"  width="40%" height="100%"src="img2/MTM full.png" style="margin-top: -15px"></a>  
+            </div>
+            <div class="col-md-4  text-right">
+                <div style="width:100%; padding-top:10px;" id="blinktodayheadlinenews">
+          <div style="float:left; width:70%; line-height:15px; padding-right:10px; text-align:left;"><a href="https://youtu.be/wNPmBK0-pvk" style="color:#000;" target="_blank"><span style="font-size:15px;"><b>காலை தலைப்புச் செய்திகள்</b><span><br><span style="font-size:12px;">Today Headlines - 21 December 2022   </span></a></div>
+          <div style="float:right; width:30%;"><a align="center" href="https://youtu.be/wNPmBK0-pvk" target="_blank"><img src="img2/MTMgif.gif" width="100%;" /><center style="font-size:20px;color: red;font-family:bold;">Live</center></a></div>
+        </div>
+            </div>
+        </div>
+    </div>
+
+       <!-- Marquee Headlines -->
+    <!-- Marquee Headlines -->
+ <div class="container-fluid">
+    <div class="row">       
+      <div class="col-md-2" style="margin:0;padding: 0;">
+
+         <p style="font-size: 15px;font-weight:999;background-color: red;color:white;">முக்கிய செய்திகள்</p>
+          </div>
+            <div class="col-md-10 px-0">
+             <marquee class="mar-bn blink" loop="5"onmouseover="this.stop();" onmouseout="this.start();">
+                      <a href="#"><span class="mdot"></span>&nbsp;காசேதான் கடவுளடா பாடலில் உங்க வாய்ஸ் எங்க?’ -மீம்ஸ்களுக்கு நடிகை மஞ்சு வாரியர் பதிலடி!</a>
+
+                      <a href="#"><span class="mdot"></span>&nbsp;திமுகவினர் என்னை கடத்தி சென்று அடித்தனர்’- காணாமல் போன கரூர் பஞ்சாயத்து தேர்தல் வேட்பாளர்</a>
+
+                       <a href="#"><span class="mdot"></span>&nbsp; தன் மகளின் திருமண சடங்குகளை செய்ய ஜாமீன் கோரும் `உன்னாவ் வன்கொடுமை வழக்கு’ குல்தீப் சிங்
+                        </a>
+                        <a href="#"><span class="mdot"></span>&nbsp; நாங்க திரும்ப வருவோம்”- உலகக்கோப்பை தோல்விக்கு பிறகு பதிவிட்ட பிரான்ஸ் வீரர் எம்பாப்வே!
+                        </a>
+                       <a href="#"><span class="mdot"></span>&nbsp; நடிகர் அஜித் பெயரை பயன்படுத்தி இப்படியெல்லாம் கூடவா ரசிகரை ஏமாத்துவாங்க?- பரபரப்பு சம்பவம்
+                        </a>            
+             </marquee>
+
+          </div>
+        </div> 
+    </div>
+      <style>
+        .mar-bn a{
+            color:#111;
+        }
+          .mdot{
+            border-radius:50%;
+            background-color: brown;
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+          }
+          .blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                100% {
+                    opacity: 0;
+                }
+            }
+      </style>
+    <!-- Navbar End -->
+   
+
+   <!-- MTM next Page -->
+   <div class="container-fluid">
+        <hr>
+            <h2 align="center"style="font-weight:999;">Brief News</h2>
+          
+        <hr>
+       <div class="row">
+           <div class="col-md-3"style=" width: 300px;border: 2px solid darkred;margin:10px;padding: 10px;height: 1000px;">
+                 <center><a class="" href="#">Related News</a></center>
+            <center><marquee  direction="down" width="200" height="950" onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer;">
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+           ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு <br>
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+            ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு <br>
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+            ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு <br>
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+            ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு<br> 
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+            ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு<br>   
+        </marquee></center>
+           </div>
+           <div class="col-md-6 uploads">
+                <h3>தமிழக மாணவர்கள் JEE தேர்வுக்கு விண்ணப்பிப்பதில் சிக்கல்</h3>
+                <i class="fas fa-upload">&nbsp;<time>Dec 21,2022 &nbsp; 02:10:12 PM</i><i class="fas fa-comment">&nbsp;3</i><i class="fas fa-eye">&nbsp;563</i></time><button onclick="responsiveVoice.speak('தமிழக மாணவர்கள் JEE தேர்வுக்கு விண்ணப்பிப்பதில் சிக்கல் ஏற்பட்டுள்ளதால், தேசிய தேர்வுகள் முகமையின் கவனத்திற்கு கொண்டுசெல்லப்பட்டு, தீர்வு காணப்படும் என, பள்ளிக்கல்வித்துறை அமைச்சர் அன்பில் மகேஷ் பொய்யாமொழி தெரிவித்துள்ளார்.நாட்டிலுள்ள முன்னணி கல்வி நிறுவனங்களில் பொறியியல் படிப்புகளில் சேர, மத்திய அரசால் ஜேஇஇ நுழைவுத்தேர்வு நடத்தப்படும் நிலையில், அதற்கான விண்ணப்பத்தில், 10ஆம் வகுப்பு மதிப்பெண்களை உள்ளீடு செய்வது கட்டாயமாக்கப்பட்டுள்ளது.ஆனால், தற்போது பிளஸ் டூ படிக்கும் மாணவர்கள், 2020 ஆம் ஆண்டில் கொரோனா சூழலில் 10ஆம் வகுப்பு படித்தபோது மதிப்பெண்கள் ஏதும் வழங்கப்படாமல், தேர்ச்சி என்று மட்டுமே வழங்கப்பட்டுள்ளதால், ஜே இ இ நுழைவுத்தேர்வுக்கு விண்ணப்பிப்பதில் சிக்கல் ஏற்பட்டுள்ளது.இதனிடையே ஜே.இ.இ நுழைவுத்தேர்வு விண்ணப்பத்தில் 10 வகுப்பு மதிப்பெண் குறிப்பிடுவதிலிருந்து தமிழக மாணவர்களுக்கு விலக்கு தேவை என, பா.ம.க. தலைவர் அன்புமணி ராமதாஸ் கோரிக்கை விடுத்துள்ளார்.');" 
+type="button" value="Play" class="play-btn" title="play the article"><i class="fa fa-headphones" aria-hidden="true"></i></button>
+
+               <img class="img-fluid" src="https://d3dqrx874ys9wo.cloudfront.net/uploads/web/images/750x430/1671689388194214.jpg" alt="Gokul">          
+                    <div class="mt-4">
+                        <p style="text-align:left">தமிழக மாணவர்கள் JEE தேர்வுக்கு விண்ணப்பிப்பதில் சிக்கல் ஏற்பட்டுள்ளதால், தேசிய தேர்வுகள் முகமையின் கவனத்திற்கு கொண்டுசெல்லப்பட்டு, தீர்வு காணப்படும் என, பள்ளிக்கல்வித்துறை அமைச்சர் அன்பில் மகேஷ் பொய்யாமொழி தெரிவித்துள்ளார்.<br><br>
+                        நாட்டிலுள்ள முன்னணி கல்வி நிறுவனங்களில் பொறியியல் படிப்புகளில் சேர, மத்திய அரசால் ஜேஇஇ நுழைவுத்தேர்வு நடத்தப்படும் நிலையில், அதற்கான விண்ணப்பத்தில், 10ஆம் வகுப்பு மதிப்பெண்களை உள்ளீடு செய்வது கட்டாயமாக்கப்பட்டுள்ளது.<br><br>
+                        ஆனால், தற்போது பிளஸ் டூ படிக்கும் மாணவர்கள், 2020 ஆம் ஆண்டில் கொரோனா சூழலில் 10ஆம் வகுப்பு படித்தபோது மதிப்பெண்கள் ஏதும் வழங்கப்படாமல், தேர்ச்சி என்று மட்டுமே வழங்கப்பட்டுள்ளதால், ஜே இ இ நுழைவுத்தேர்வுக்கு விண்ணப்பிப்பதில் சிக்கல் ஏற்பட்டுள்ளது.<br><br>
+                        இதனிடையே ஜே.இ.இ நுழைவுத்தேர்வு விண்ணப்பத்தில் 10 வகுப்பு மதிப்பெண் குறிப்பிடுவதிலிருந்து தமிழக மாணவர்களுக்கு விலக்கு தேவை என, பா.ம.க. தலைவர் அன்புமணி ராமதாஸ் கோரிக்கை விடுத்துள்ளார்.<br></p>
+                    </div> 
+                        <div class="post-share col-md-6 mt-4">
+                            <span style="font-weight:bold;"> Share:&nbsp;</span><i class="fas fa-share"></i>
+                                <a class="fb"  href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a class="twi"  href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="wa" href="#">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a> 
+                                <style>
+                                    .post-share a i{
+                                        font-size: 40px;
+                                        color:#3e61aa;
+                                        justify-content: space-between;
+                                        margin: 10px;
+                                    }.post-share  i{
+                                        font-size: 25px;
+                                        color:black;
+                                    }
+                                    .post-share a i:hover{
+                                        font-size: 40px;
+                                        color:#43a28f;
+                                        justify-content: space-between;
+                                        margin: 10px;
+                                    }
+                                    .post-share span{
+                                        font-size: 20px;
+                                        color: #43a28f;
+                                        text-transform: uppercase;
+                                    }
+                                    .uploads i,.uploads time i{
+                                        margin: 10px;
+                                        color:#111;
+                                    }
+                                    time{
+                                        color:#111;
+                                    }
+                                    time i:hover{
+                                        margin: 10px;
+                                        color: #cc0631;
+                                    }
+                                    figcaption{
+                                        color:#111;
+                                    }
+                                </style>  
+                        </div>
+                </div>
+           <div class="col-md-3"style=" width: 300px;border: 2px solid darkred;margin:10px;padding: 10px;height: 1000px;">
+                <center><a class="" href="#">Suggested News</a></center>
+            <center><marquee  direction="down" width="200" height="950"onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer;">
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+           ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு <br>
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+            ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு <br>
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+            ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு <br>
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+            ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு<br> 
+            <img src="img/new0.jpg"style="margin:05px;width:200px;height:100px;"><br>
+            ராகிங்கில் ஈடுபட மாட்டேன் என பிரமாணப் பத்திரம் தாக்கல் செய்ய மாணவர்களுக்கு அண்ணா பல்கலைக்கழகம் உத்தரவு<br>   
+        </marquee></center>
+           </div>
+       </div>
+   </div>
+     <!-- MTM testing Start -->
+    <div class="container-fluid">
+         <hr>
+            <h2 align="center"style="font-weight:999;">Related News</h2>
+        <hr>
+
+       <div class="row" >
+        <div class="pr-2 just_slidet">
+            <div class="owl-carousel owl-theme just_now_slider">
+                
+                    <div class="item">
+                        <a href="#">
+                            <figure class="slider_thumb">
+                                <img width="200" height="250" src="https://ptm-cms-images.sgp1.cdn.digitaloceanspaces.com/uploads/news-image/2022/12/19/800x400/167773.webp" alt="" loading="lazy" >
+                                <figcaption class="caption">`திமுகவினர் என்னை கடத்தி சென்று அடித்தனர்’- காணாமல் போன கரூர் பஞ்சாயத்து தேர்தல் வேட்பாளர்</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure class="slider_thumb">
+                                <img width="200" height="250" src="https://ptm-cms-images.sgp1.cdn.digitaloceanspaces.com/uploads/news-image/2022/12/19/800x400/167769.webp" alt="" loading="lazy" >
+                                <figcaption class="caption">தன் மகளின் திருமண சடங்குகளை செய்ய ஜாமீன் கோரும் `உன்னாவ் வன்கொடுமை வழக்கு’ குல்தீப் சிங்</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure class="slider_thumb">
+                                <img width="200" height="250" src="https://ptm-cms-images.sgp1.cdn.digitaloceanspaces.com/uploads/news-image/2022/12/19/800x400/167765.webp" alt="" loading="lazy" >
+                                <figcaption class="caption">``நாங்க திரும்ப வருவோம்”- உலகக்கோப்பை தோல்விக்கு பிறகு பதிவிட்ட பிரான்ஸ் வீரர் எம்பாப்வே!</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div> 
+    </div>
+    <!-- MTM testing end -->
+ <br>
+ <br><br>
+      <!--preview and next page-->
+        <div class="col-md-4" style="margin-left:auto;margin-right: auto;align-content: center;">
+            <ul  class="pagination" >
+                <li class="pagenum"><a href="home.html"><Prev>prev</Prev> </a></li>
+                <li  class="pagenum  active"> <a href="#">1</a></li>
+                <li  class="pagenum"> <a href="news.html">2</a></li>
+                <li  class="pagenum"> <a href="#">3</a></li>
+                <li  class="pagenum"> <a href="#">4</a></li>
+                <li  class="pagenum"> <a href="#">5</a></li>
+                <li  class="pagenum"> <a href="#">6</a></li>
+                <li class="pagenum"> <a href="readpage.html"><Next>Next</Next></a></li>
+            </ul>
+        </div>
+        <style>
+           .pagination{
+                    position: relative;
+                    background-color: #fff;
+                    display: flex;
+                    padding: 10px 20px;
+                    border-radius: 40px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, .2) ;
+                }
+               .pagination .prev{
+                    list-style: none;
+                    line-height: 50px;
+                    margin: 0 5px;
+
+                }
+                .pagenum{
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    text-align: center;
+
+                }
+                .pagenum a {
+                    display: block;
+                    text-decoration: none;
+                    color:#3e61aa;
+                    font-weight: 600;
+                    border-radius: 100%;  
+                }
+               .pagenum a:hover,
+               .pagenum a.active 
+                {
+                    background-color:#cc0631;
+                    color:#fff;
+                }
+               
+         </style>
+         
+
+         <script type="text/javascript">
+             $(document).ready(function(){
+                $('.next').click(function(){
+                    $('.pagination').find('.pagenum.active').next().addclass('active');
+                       $('.pagination').find('.pagenum .active').prev().removeclass('active');
+              })
+             $('.prev').click(function){
+                $('.pagination').find('.pagenum .active').prev().addclass('active');
+                   $('.pagination').find('.pagenum .active').next().removeclass('active');
+              }
+         })
+         </script>
+</div>
+  <!--preview and next page End-->
+    <!-- Footer start -->
+    <footer class="footer-distributed">
+
+            <div class="footer-left">
+              <img src="img2/MTM full.png">
+                
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                      <p><span>309 - Sudhagar Nagar,
+                        Villupuram </p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:mytownmedia0403@gmail.com">mytownmedia0403@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About My town media</span>
+                    We are feed  all type of news.</p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr style="background-color: #3e61aa;">
+            <center>
+                <div>
+                    <p class="footer-company-name">© 2022 All Rights Reserved.Designed and Developed by&nbsp;<span><a style="color:#ffa752" href="http://gsinfomatics.in/">GS Infomatics</a></span></p>
+                </div>
+            </center>
+
+            <style>
+                footer{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-height:800px){
+    footer { position: static; }
+    header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+    background-color: #2c292f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding:20px 20px 20px 20px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 30%;
+}
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+    width: 30%;
+}
+
+.footer-distributed h3 span{
+    color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color:#3e61aa;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+    color:  #ffa752;
+    text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #3e61aa;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+
+}
+            </style>
+        </footer>
+
+
+        <style>
+    .play-btn {
+  align-items: center;
+  background-color: #3e61aa;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  width: 20px;
+  height: 30px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.play-btn:hover,
+.play-btn:focus { 
+  background-color: #cc0631;
+  color: #ffffff;
+}
+
+.play-btn:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.play-btn:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+</style>
+    
+    
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:800,
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+     </script>
+     <script>
+        document.onkeydown=function (e) {
+            if (event.keyCode==123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode =='I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode =='J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode =='I'.charCodeAt(0)) {
+                return false;
+            }
+        }
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/owl.min.js"></script>
+    <script>
+    // WOW INIT
+    new WOW().init();
+   </script>
+</body>
+
+</html>
